@@ -4,9 +4,9 @@ import Header from '../components/partials/Header';
 
 export default class AppMaster extends Component{
     render(){
+        //console.log(this.props.children)
         return (
             <div>
-                <Header/>
                 <div>
                     {this.props.children}
                 </div>

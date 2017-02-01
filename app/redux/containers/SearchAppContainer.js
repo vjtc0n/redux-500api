@@ -8,6 +8,7 @@ import PhotoList from '../../components/photos/PhotoList';
 
 class SearchAppContainer extends Component {
     render() {
+        //console.log({...this.props})
         return (
             <div>
                 <div id="header" className="header">

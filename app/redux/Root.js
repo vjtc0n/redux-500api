@@ -1,7 +1,7 @@
 // Import react
 import React, {Component} from 'react';
 import {Provider} from 'react-redux';
-import {Router, Route, hashHistory} from 'react-router';
+import {Router, Route, hashHistory, browserHistory} from 'react-router';
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 
 // Import custom
